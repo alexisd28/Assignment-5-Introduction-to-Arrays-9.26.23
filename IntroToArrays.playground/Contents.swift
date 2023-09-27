@@ -12,6 +12,9 @@ fruitNames = ["Kiwi", "Apples", "Watermelon"]
 
 //Part 5 ON YOUR OWN (2 points)
 
+print(fruitNames[0])
+print(fruitNames[2])
+
 //Part 6
 //"I like to eat Kiwi"
 print("I like to eat \(fruitNames)")
@@ -24,3 +27,15 @@ for name in fruitNames
 
 //Part 8
 print(fruitNames[1])
+
+//Problem Sets
+//#1
+var expensiveCars: [String]
+expensiveCars = ["Aston Martin Valour", "McLaren Elva", "Czinger 21C", "Ferrari Monza", "Gordon Murray T.33", "Koenigsegg Gemera", "Zenvo TSR-S", "Hennessey Venom F5"]
+
+for car in expensiveCars
+{
+    print(car + " is a very expensive car")
+}
+print(expensiveCars[0])
+
